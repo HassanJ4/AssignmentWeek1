@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+    background-color: red;
+    text-align: left;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex; 
+    gap: 40px;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.feature_image {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    border-bottom: #fff 2px solid;
+}
+
+.image-strawberries {
+    background-image: url('https://cdn.mos.cms.futurecdn.net/VKFKEnSDCPhN9js4o5vR7F.jpg');
+}
+
+.image-slicers {
+    background-image: url('https://www.thegiftsformen.com/upload/products/strawberry-slicer.jpg');
+}
+
+.image-satchels {
+    background-image: url('https://i.etsystatic.com/42261721/r/il/bc0d07/6137131930/il_570xN.6137131930_2u1w.jpg');
+}
+
+.content-box {
+    position: absolute;
+    bottom: 10%;
+    left: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 80%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    color:black;
+}
+
+.box-heading {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.box-text {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.box-button {
+    margin-top: 10px;
+    display: inline-block;
+    max-width: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgb(20, 82, 20);
+    cursor: pointer;
+}
+
+.box-button:hover {
+    background-color: pink;
+}
+
+.site-footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.back-to-top {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
